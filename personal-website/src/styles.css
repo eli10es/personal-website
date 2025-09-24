@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #000000;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
