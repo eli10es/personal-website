@@ -1,1 +1,40 @@
-<p>about-contact works!</p>
+<div class="about-contact-section">
+  <section class="about-me">
+    <div class="form-style">
+      <div class="title">
+        <h1>About me</h1>
+        <p class="description">
+          I am a passionate software engineer with a focus on creating impactful
+          solutions. With a background in computer science and a love for
+          coding, I strive to build innovative applications that solve
+          real-world problems. My expertise spans various technologies,
+          including web development, mobile app development, and backend
+          systems. I am always eager to learn and explore new challenges in the
+          ever-evolving tech landscape.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="form-style">
+      <div class="title" id="contact">
+        <h1>Get In Touch</h1>
+        <p class="description">Have a project in mind? Let's talk</p>
+      </div>
+
+      <form [formGroup]="myForm" class="form-shape">
+        <input type="text" placeholder="Your Name" formControlName="name" />
+        <input type="text" placeholder="Your Email" formControlName="email" />
+        <textarea
+          placeholder="Your Message"
+          name=""
+          id=""
+          formControlName="message"
+        ></textarea>
+        <button [disabled]="myForm.invalid" (click)="onSend($event)">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+</div>

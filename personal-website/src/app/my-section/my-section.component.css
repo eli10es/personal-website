@@ -1,0 +1,46 @@
+.first-section {
+  padding: 4em;
+}
+
+.myself {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  padding: 4em;
+  border-radius: 1em;
+  align-items: flex-start;
+  justify-content: end;
+  gap: 2em;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.3),
+      transparent
+    ),
+    url("https://lh3.googleusercontent.com/aida-public/AB6AXuCwP1_33ailwdjJZOjmGwmKjK_v1vxpVDrmAe6xjf21rnK6VGCVcsi_j-8ypo_vvR0wz7iUyqYvSvE3K8Bu-0krNg91bXdOz5cmbgnHzKug8oZXNp_fqlBJZz6_oAPe85ttvdglI1J7ylhHIyDxHOUxlfiFXRyReXuNbuq9Qb4DGKGRNyXhsCfZqIM2H3wxXcaUFQFFGU3Cnv7fxTH_PctWphYpcaeyMRUE1KBWkovgWeI6spRCQPdKTkyRLpGKg8eMpD4hvpzzkiXJ");
+
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 5rem; /* text-4xl */
+  font-weight: 700; /* font-bold */
+  color: white; /* text-white */
+}
+p {
+  font-size: 1.5em;
+  color: #e2e8f0;
+}
+
+button {
+  background-color: #1193d4;
+  color: white;
+  font-size: 1.75em;
+  transition: background-color 0.1s ease-in, transform 0.1s ease-out;
+  align-self: flex-start;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: none;
+  height: 2.25em;
+}
