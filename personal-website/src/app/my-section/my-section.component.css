@@ -35,8 +35,8 @@ p {
 }
 
 button {
-  background-color: #1193d4;
-  color: white;
+  background-color: whitesmoke;
+  color: black;
   font-size: 1.75em;
   transition:
     background-color 0.1s ease-in,
@@ -46,4 +46,14 @@ button {
   border-radius: 0.5em;
   border: none;
   height: 2.25em;
+  font-family: "Poppins";
+}
+
+button:hover {
+  filter: brightness(125%);
+  transform: scale(1.03);
+}
+
+button:active {
+  transform: scale(0.98);
 }
