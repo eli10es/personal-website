@@ -35,3 +35,31 @@ img {
 p {
   color: lightslategray;
 }
+
+@media (max-width: 600px) {
+  .featured-projects {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    gap: 0em;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1.5em;
+  }
+
+  .project {
+    background-color: #111827;
+    font-size: 1em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+  }
+}

@@ -1,17 +1,18 @@
 .first-section {
-  padding: 4em;
+  padding: 1em;
 }
 
 .myself {
   display: flex;
   flex-direction: column;
   height: 30vh;
-  padding: 4em;
+  padding: 1em;
   border-radius: 1em;
   align-items: flex-start;
   justify-content: end;
   gap: 2em;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to top,
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.3),
@@ -37,7 +38,9 @@ button {
   background-color: #1193d4;
   color: white;
   font-size: 1.75em;
-  transition: background-color 0.1s ease-in, transform 0.1s ease-out;
+  transition:
+    background-color 0.1s ease-in,
+    transform 0.1s ease-out;
   align-self: flex-start;
   padding: 0.5em;
   border-radius: 0.5em;

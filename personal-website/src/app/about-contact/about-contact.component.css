@@ -60,7 +60,8 @@ button {
   height: 2.25em;
   background-color: #15242b;
   color: aliceblue;
-  box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 0px 1px inset,
+  box-shadow:
+    rgba(255, 255, 255, 0.5) 0px 0px 0px 1px inset,
     rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
 }
 
@@ -88,7 +89,9 @@ button {
   background-color: #1193d4;
   color: white;
   font-size: 1.25em;
-  transition: background-color 0.1s ease-in, transform 0.1s ease-out;
+  transition:
+    background-color 0.1s ease-in,
+    transform 0.1s ease-out;
 }
 
 button:hover {
@@ -149,7 +152,32 @@ button:active {
     background-color: #1193d4;
     color: white;
     font-size: 1.25em;
-    transition: background-color 0.1s ease-in, transform 0.1s ease-out;
+    transition:
+      background-color 0.1s ease-in,
+      transform 0.1s ease-out;
     align-self: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0em;
+    width: 100%;
+    gap: 3em;
+  }
+
+  .about-me {
+    width: 100%;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .form-shape {
+    align-items: center;
   }
 }
